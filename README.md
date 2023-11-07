@@ -1,4 +1,4 @@
-# Título del Proyecto
+# Currículum
 
 ## Desarrollo de Sitio Web con Bootstrap, CSS y HTML
 
@@ -6,7 +6,8 @@
 
 ## Propósito del Sitio
 
-Breve descripción del propósito y objetivo del sitio web que has desarrollado.
+El objetivo de este sitio fue experimentar con la plantilla 
+proporcionada en internet para usar a futuro como currículum.
 
 ---
 
@@ -30,6 +31,7 @@ Breve descripción del propósito y objetivo del sitio web que has desarrollado.
 
 ### Requisitos Previos
 
+- Visual Studio Code 
 - Navegador WEB (Chrome, Firefox o Microsoft Edge) 
 
 ### Instalación

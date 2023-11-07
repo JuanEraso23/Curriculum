@@ -30,7 +30,7 @@ Breve descripción del propósito y objetivo del sitio web que has desarrollado.
 
 ### Requisitos Previos
 
-- Navegador web (como Chrome o Firefox)
+- Navegador WEB (Chrome, Firefox o Microsoft Edge) 
 
 ### Instalación
 

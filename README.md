@@ -20,9 +20,9 @@ Breve descripción del propósito y objetivo del sitio web que has desarrollado.
 
 ## Integrantes
 
-- **Nombre del Estudiante 1**
-- **Nombre del Estudiante 2**
-- **Nombre del Estudiante 3**
+- **Juan Eraso**
+- **Jaider Narvaéz**
+- **Juan Coronado**
 
 ---
 

@@ -36,7 +36,7 @@ proporcionada en internet para usar a futuro como currículum.
 
 ### Instalación
 
-1. Clona este repositorio en tu máquina local utilizando Git:
+1. Clona este repositorio en tu máquina local utilizando la terminal Git Bash:
 
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/JuanEraso23/Curriculum.git

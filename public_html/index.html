@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Start your development with JohnDoe landing page.">
     <meta name="author" content="Devcrud">
-    <title>JohnDoe Landing page | Free Bootstrap 4.3.x landing page</title>
+    <title>JohnDoe</title>
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + JohnDoe main styles -->
@@ -17,9 +17,8 @@
         <div class="container">
             <ul class="social-icons pt-3">
                 <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
                 <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
                 <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
             </ul>  
             <div class="header-content">
@@ -30,13 +29,21 @@
             </div>
         </div>
     </header>
+
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
         <div class="container">
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav brand">
+                    <li class="brand-txt">
+                        <h5 class="brand-title">John Doe</h5>
+                        <div class="brand-subtitle">Web Designer | Developer</div>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a href="#home" class="nav-link">Bienvenida</a>
                     </li>
@@ -46,14 +53,6 @@
                     <li class="nav-item">
                         <a href="#resume" class="nav-link">Currículum</a>
                     </li>
-                </ul>
-                <ul class="navbar-nav brand">
-                    <li class="brand-txt">
-                        <h5 class="brand-title">John Doe</h5>
-                        <div class="brand-subtitle">Web Designer | Developer</div>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a href="#portfolio" class="nav-link">Portafolio</a>
                     </li>
@@ -64,52 +63,68 @@
             </div>
         </div>
     </nav>
+    
     <div class="container-fluid">
         <div id="about" class="row about-section">
-            <div class="col-lg-4 about-card">
-                <h2 class="mb-5"><span class="text-danger">¿Quién</span> Soy?</h2>
-                <h3 class="font-weight-light">Información Personal</h3>
-                <span class="line mb-5"></span>
-                <ul class="mt40 info list-unstyled">
-                    <li><span>Fecha de Nacimiento</span> : 09/05/1984</li>
-                    <li><span>Lugar de Nacimiento</span> : Miami, Florida (USA)</li>
-                    <li><span>Lugar de Residencia</span> : Cali (Colombia)</li>
-                    <li><span>Contacto</span> : + (57) 326-6415924</li>
-                    <li><span>Email</span> : John_Doe@gmail.com</li>
-                </ul>
-                <ul class="social-icons pt-3">
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
-                </ul>  
-            </div>
-            <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">Repertorio</h3>
-                <span class="line mb-5"></span>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-paint-bucket icon-lg"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6>Diseñador Gráfico</h6>
-                        <p class="subtitle">Adobe Photoshop</p>
-                        <p class="subtitle">Adobe Illustrator</p>
-                        <p class="subtitle">Paint Tool SAI</p>
-                        <hr>
+            <div class="col-lg-6 about-card">
+                <h2 class="mb-5 text-center"><span class="text-danger">¿Quién</span> Soy?</h2>
+                <h3 class="font-weight-light mb-5 text-center">Información Personal</h3>
+                <span class="line mb-5" style="display: block; width: 50%; margin: 0 auto;"></span>
+
+                <div class="d-flex align-items-center justify-content-center">
+                    <div class="text-center">
+                        <ul class="mt40 info list-unstyled">
+                            <li><span>Fecha de Nacimiento</span> : 09/05/1984</li>
+                            <li><span>Lugar de Nacimiento</span> : Miami, Florida (USA)</li>
+                            <li><span>Lugar de Residencia</span> : Cali (Colombia)</li>
+                            <li><span>Contacto</span> : + (57) 326-6415924</li>
+                            <li><span>Email</span> : John_Doe@gmail.com</li>
+                        </ul>
+                        <ul class="social-icons pt-3 list-unstyled">
+                            <li class="social-item"><a class="social-link" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-lg"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6>Desarrollador WEB</h6>
-                        <p class="subtitle">JavaScript</p>
-                        <p class="subtitle">Python</p>
-                        <p class="subtitle">HTML</p>
-                        <p class="subtitle">CSS</p>
-                        <hr>
+                
+                
+                 
+            </div>
+
+            <div class="col-lg-6 about-card">
+                <h3 class="font-weight-light mb-4 text-center">Repertorio</h3>
+                <span class="line mb-4" style="display: block; width: 50%; margin: 0 auto;"></span>
+                
+                <div class="text-center">
+                    <div class="row align-items-center">
+                        <div class="col-1 text-danger"><i class="ti-paint-bucket icon-lg"></i></div>
+                        <div class="col-10">
+                            <h6 class="mb-2">Diseñador Gráfico</h6>
+                            <p class="subtitle mb-2">Adobe Photoshop</p>
+                            <p class="subtitle mb-2">Adobe Illustrator</p>
+                            <p class="subtitle mb-2">Paint Tool SAI</p>
+                            <hr>
+                        </div>
                     </div>
                 </div>
-            </div>
+                
+                <div class="text-center">
+                    <div class="row align-items-center">
+                        <div class="col-1 text-danger"><i class="ti-stats-up icon-lg"></i></div>
+                        <div class="col-10">
+                            <h6 class="mb-2">Desarrollador WEB</h6>
+                            <p class="subtitle mb-2">JavaScript</p>
+                            <p class="subtitle mb-2">Python</p>
+                            <p class="subtitle mb-2">HTML</p>
+                            <p class="subtitle mb-2">CSS</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>     
         </div>
     </div>
 
@@ -219,23 +234,24 @@
     <section class="section bg-dark text-center">
         <div class="container">
             <div class="row text-center">
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6">
                     <div class="row">
-                        <div class="col-5 text-right text-light border-right py-3">
+                        <div class="col-6 text-right text-light border-right py-3">
                             <div class="m-auto"><i class="ti-layers-alt icon-xl"></i></div>
                         </div>
-                        <div class="col-7 text-left py-3">
+                        <div class="col-6 text-left py-3">
                             <h1 class="text-danger font-weight-bold font40">50K</h1>
                             <p class="text-light mb-1">Comisiones</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+
+                <div class="col-md-6">
                     <div class="row">
-                        <div class="col-5 text-right text-light border-right py-3">
+                        <div class="col-6 text-right text-light border-right py-3">
                             <div class="m-auto"><i class="ti-face-smile icon-xl"></i></div>
                         </div>
-                        <div class="col-7 text-left py-3">
+                        <div class="col-6 text-left py-3">
                             <h1 class="text-danger font-weight-bold font40">200K</h1>
                             <p class="text-light mb-1">Clientes Satisfechos</p>
                         </div>

@@ -40,3 +40,4 @@ proporcionada en internet para usar a futuro como currículum.
 
    ```bash
    git clone https://github.com/JuanEraso23/Curriculum.git
+   ```
